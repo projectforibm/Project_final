@@ -986,7 +986,7 @@ System.out.println("3.6");
 		driver.findElement(By.xpath("//*[@id='menu15']")).click();
 
 		driver.switchTo().alert().accept();
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		for (int i=0;i<res1-1;i++)
 		{
 
