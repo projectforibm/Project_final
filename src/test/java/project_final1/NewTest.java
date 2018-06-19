@@ -1010,7 +1010,7 @@ System.out.println("3.6");
 
 		//All fields are working in access settings and login password is input with virtual keyboard
 
-		Thread.sleep(500);
+		Thread.sleep(5000);
 
 		driver.findElement(By.xpath(".//*[@id='cyclosUsername']")).clear();
 		driver.findElement(By.xpath(".//*[@id='cyclosUsername']")).sendKeys("admin");
@@ -1028,7 +1028,7 @@ System.out.println("3.6");
 		driver.findElement(By.xpath("//*[@id='submenu9.2']")).click();
 		driver.findElement(By.id("modifyButton")).click(); 
 
-		Thread.sleep(500);
+		Thread.sleep(5000);
 		driver.findElement(By.xpath("//*[@name='setting(virtualKeyboard)']")).click();
 		driver.findElement(By.id("saveButton")).click();
 		driver.switchTo().alert().accept();
@@ -1036,7 +1036,7 @@ System.out.println("3.6");
 		driver.findElement(By.xpath("//*[@id='menu15']")).click();
 		driver.switchTo().alert().accept();
 
-		Thread.sleep(500);
+		Thread.sleep(5000);
 		driver.findElement(By.id("cyclosUsername")).sendKeys("admin");
 		driver.findElement(By.name("password")).sendKeys("1234");
 		driver.findElement(By.xpath("//*[@value='Submit']")).click();
@@ -1049,7 +1049,7 @@ System.out.println("3.6");
 		driver.findElement(By.xpath("//*[@id='submenu9.2']")).click();
 		driver.findElement(By.id("modifyButton")).click();
 
-		Thread.sleep(500);
+		Thread.sleep(5000);
 		driver.findElement(By.xpath("//*[@name='setting(virtualKeyboard)']")).click();
 		driver.findElement(By.id("saveButton")).click();
 		driver.switchTo().alert().accept();
@@ -1063,7 +1063,7 @@ System.out.println("3.6");
 
 		//All  fields are working in access settings
 
-		Thread.sleep(500);
+		Thread.sleep(5000);
 		driver.findElement(By.id("cyclosUsername")).clear();
 		driver.findElement(By.id("cyclosUsername")).sendKeys("admin");
 		driver.findElement(By.xpath("//*[@value='1']")).click();
