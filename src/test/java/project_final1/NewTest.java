@@ -54,6 +54,10 @@ public class NewTest {
 		driver.findElement(By.xpath("//*[@value='3']")).click();
 		driver.findElement(By.xpath("//*[@value='4']")).click();
 		driver.findElement(By.xpath("//*[@value='Submit']")).click();
+		String Expectedurl = "Cyclos";
+		String actualurl = driver.getTitle();
+		Assert.assertEquals(Expectedurl, actualurl);
+		System.out.println(actualurl);
 		
 		
 
